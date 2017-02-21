@@ -36,6 +36,16 @@ body {
   color: #4dbd90;
 }
 
+/* Game logo size (change max-width): */
+.game-logo {
+  display: block;
+  width: 40%;
+  max-width: 300px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Top downloads: */
 .section.press {
   display: block;
