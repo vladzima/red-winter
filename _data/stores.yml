@@ -1,4 +1,5 @@
 # Please don't change items order!
+# To disable store on site change true to false
 
 - title: steam
   available:  true
