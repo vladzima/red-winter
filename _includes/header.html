@@ -1,5 +1,5 @@
 <div class="navigation w-nav" data-animation="default" data-collapse="medium" data-duration="400">
-    <div class="w-container"><img class="logo-company" src="/assets/images/{{ site.company_logo }}">
+    <div class="w-container"><img class="logo-company" src="assets/images/{{ site.company_logo }}">
       <nav class="nav-menu w-nav-menu" role="navigation">
         {% for item in site.data.menu %}
         {% if item.show == true %}
@@ -12,8 +12,8 @@
       </div>
     </div>
   </div>
-  <div class="main section" id="top"><img class="w-hidden-main w-hidden-medium" sizes="100vw" src="/assets/images/{{ site.image_on_mobile }}">
+  <div class="main section" id="top"><img class="w-hidden-main w-hidden-medium" sizes="100vw" src="assets/images/{{ site.image_on_mobile }}">
     <div class="bg-video w-background-video w-hidden-small w-hidden-tiny" data-autoplay="data-autoplay" data-loop="data-loop" data-poster-url="{{ site.fallback_image }}" {% if site.webm %}data-video-urls="{{ site.webm }},{{ site.mp4 }}"{% endif %} data-wf-ignore="data-wf-ignore">
-    <img class="game-logo" sizes="(max-width: 767px) 100vw, 40vw" src="/assets/images/{{ site.game_logo }}">
+    <img class="game-logo" sizes="(max-width: 767px) 100vw, 40vw" src="assets/images/{{ site.game_logo }}">
     </div>
   </div>
