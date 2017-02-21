@@ -1,0 +1,13 @@
+  <div class="purple section" id="presskit">
+    <div class="w-container">
+      <div class="w-row">
+        {% for block in site.data.presskit_signup %}
+        <div class="w-col w-col-6 rect" id="{{ block.id }}">
+          <div class="{% if forloop.index == 1 %} first {% else %} second {% endif %} plan-wrapper" data-ix="fade-in-on-scroll">
+            <h3 class="inner-header">{{ block.title }}</h3>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>

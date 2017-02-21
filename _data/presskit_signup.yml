@@ -1,0 +1,11 @@
+# Please don't change items order!
+
+- title: "Press Kit"
+  background: 347760158.jpg
+  link: http://google.com
+  id: presskit
+
+- title: "Sign Up"
+  background: 3wegiYp.png
+  link: http://google.com
+  id: signup

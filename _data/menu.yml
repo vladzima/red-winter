@@ -1,0 +1,15 @@
+- title: "Features"
+  show:  true
+  link: "#features"
+      
+- title: "Press Kit"
+  show:  true
+  link: "#presskit"
+      
+- title: "Reviews"
+  show:  true
+  link: "#reviews"
+  
+- title: "More Games"
+  show:  true
+  link: http://google.com"

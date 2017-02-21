@@ -1,0 +1,10 @@
+  <div class="clients section">
+    <h1 class="footer small-text">Available On:</h1>
+    <div class="download w-container">
+      {% for store in site.data.stores %}
+      {% if store.available == true %}
+      <img class="client-logo" id="{{ store.id_bottom }}" src="assets/images/{{ store.logo }}" sizes="(max-width: 767px) 16vw, (max-width: 991px) 116.46875px, 150.390625px" width="162">{% endif %}
+      {% endfor %}
+    </div>
+    <h1 class="footer small-text">Price: {{ site.price }}</h1>
+  </div>

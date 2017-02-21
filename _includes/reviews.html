@@ -1,0 +1,22 @@
+  <div class="section" id="reviews">
+    <div class="w-container">
+      <h2>Reviews</h2>
+      <div class="testimonial-slider w-slider" data-animation="slide" data-autoplay="1" data-delay="3000" data-duration="500" data-easing="ease-in" data-infinite="1">
+        <div class="w-slider-mask">
+          {% for review in site.data.reviews %}
+          <div class="testimony-slide w-slide">
+            <p class="testimony-text">“{{ review.text }}”</p><img class="person" src="assets/images/{{ review.image }}" width="64">
+            <div class="name">{{ review.name }}</div>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="slider-arrow w-slider-arrow-left">
+          <div class="w-icon-slider-left"></div>
+        </div>
+        <div class="slider-arrow w-slider-arrow-right">
+          <div class="w-icon-slider-right"></div>
+        </div>
+        <div class="slide-nav w-round w-slider-nav"></div>
+      </div>
+    </div>
+  </div>

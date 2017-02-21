@@ -1,0 +1,28 @@
+      {% for feature in site.data.features %}
+      <div class="feature-row w-row">
+        {% if feature.image_position == 'left' %}
+        <div class="w-col w-col-6"><img data-ix="fade-in-on-scroll" sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 354px, 460px" src="assets/images/{{ feature.image }}">
+        </div>
+        {% endif %}
+        <div class="w-col w-col-6">
+          <div class="main-feature-group">
+            <h3 class="features">{{ feature.title }}</h3>
+            <p>{{ feature.text }}</p>
+          </div>
+        </div>
+        {% if feature.image_position == 'right' %}
+        <div class="w-col w-col-6"><img data-ix="fade-in-on-scroll" sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 354px, 460px" src="assets/images/{{ feature.image }}">
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+      <div class="small-features-row w-row">
+        {% for feature in site.data.features_small %}
+        <div class="w-col w-col-{{ 12 | divided_by: site.data.features_small.size }}">
+          <div class="feature">
+            <h3 class="subfeature">{{ feature.title }}</h3>
+            <p>{{ feature.text }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>

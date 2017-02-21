@@ -1,0 +1,58 @@
+title: The Game
+email: your-email@domain.com
+baseurl: ""
+url: ""
+
+
+
+
+# GLOBAL CUSTOMIZATION
+
+# To customize Menu section please look for menu.yml in _data folder
+# To customize Downloads section (top & bottom) please look for stores.yml in _data folder
+# To customize Features section please look for features.yml & features_small.yml in _data folder
+# To customize Press kit & Sign up section please look for presskit_signup.yml in _data folder
+# To customize Reviews section please look for reviews.yml in _data folder
+# To customize Footer Menu section please look for links.yml in _data folder
+# To customize Social Links section please look for social.yml in _data folder
+
+# To customize styles please look for customize.css in assets/css folder
+
+# Header
+company_logo: 1454509303-773524-180x36-rqbanner.png
+game_logo:  d3_logo.png
+
+# Header video/image (Please keep video size reasonable)
+# / if both video links are not provided – image will be shown instead /
+fallback_image: unnamed.png
+webm: "https://daks2k3a4ib2z.cloudfront.net/58a7661dd963a3a01f62ab96/58a7789f30bebf3d0b9d4347_Conan Exiles- First Gameplay Trailer-transcode.webm"
+mp4:  "https://daks2k3a4ib2z.cloudfront.net/58a7661dd963a3a01f62ab96/58a7789f30bebf3d0b9d4347_Conan Exiles- First Gameplay Trailer-transcode.mp4"
+image_on_mobile: unnamed.png
+
+# Download tagline
+download_tagline: GET BATTLECRUISER NOW
+
+# Trailer (Youtube video ID, symbols after 'watch?v=' in video URL)
+trailer_id: fWQExBovxXI
+
+# Price
+price:  $14.99
+
+# Copyright
+copyright:  Copyright 2017 Red Winter. All Rights Reserved.
+
+# Footer
+logo_text:  Red Winter
+
+
+
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

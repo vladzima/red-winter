@@ -1,0 +1,14 @@
+- title:  twitter
+  display:  true
+  link: "http://google.com"
+  icon: twitter-icon.svg
+  
+- title:  facebook
+  display:  true
+  link: "http://google.com"
+  icon: facebook-icon.svg
+  
+- title:  email
+  display:  true
+  link: "http://google.com"
+  icon: email-icon-white.svg

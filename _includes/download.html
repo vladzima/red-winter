@@ -1,0 +1,8 @@
+<div class="press section">
+    <div class="small-text">{{ site.download_tagline }}</div>
+    <div class="logos w-container">
+      {% for store in site.data.stores %}
+      {% if store.available == true %}<img class="press-logo" id="{{ store.id }}" sizes="(max-width: 479px) 21vw, (max-width: 767px) 16vw, (max-width: 991px) 116.46875px, 150.390625px" src="/assets/images/{{ store.logo }}" width="70">{% endif %}
+      {% endfor %}
+    </div>
+  </div>

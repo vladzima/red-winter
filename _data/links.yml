@@ -1,0 +1,24 @@
+- title: "COMPANY"
+  items:
+    - subtitle: "Home"
+      subhref: "http://google.com"
+    - subtitle: "Contact"
+      subhref: "http://google.com"
+      
+- title: "MORE GAMES"
+  items:
+    - subtitle: "Dungelot"
+      subhref: "http://google.com"
+    - subtitle: "Battlecruiser"
+      subhref: "http://google.com"
+    - subtitle: "Flappy Bird"
+      subhref: "http://google.com"
+    - subtitle: "No Man's Sky"
+      subhref: "http://google.com"
+      
+- title: "LEGAL"
+  items:
+    - subtitle: "Privacy Policy"
+      subhref: "http://google.com"
+    - subtitle: "Terms of Use"
+      subhref: "http://google.com"

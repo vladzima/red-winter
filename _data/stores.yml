@@ -1,0 +1,22 @@
+# Please don't change items order!
+
+- title: steam
+  available:  true
+  logo: header_logo.png
+  link: "http://google.com"
+  id: steam_link
+  id_bottom: steam_link_bottom
+      
+- title: appstore
+  available:  true
+  logo: app-store2x.png
+  link: "http://google.com"
+  id: appstore_link
+  id_bottom: appstore_link_bottom
+      
+- title: google
+  available:  true
+  logo: google-play-logo.png
+  link: "http://google.com"
+  id: google_link
+  id_bottom:  google_link_bottom
