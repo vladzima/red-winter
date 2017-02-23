@@ -1,3 +1,7 @@
+---
+
+---
+
 /* Customization */
 
 /* Main page background color: */
@@ -45,6 +49,37 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
+/* Bottom video pattern (if included in config): */
+{% if site.bottom_pattern %}
+.pattern-bottom {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1000;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 75px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-image: url('../images/{{ site.bottom_pattern}}');
+  background-position: 50% 50%;
+  background-size: 181px;
+  background-repeat: repeat-x;
+}
+{% endif %}
 
 /* Top downloads: */
 .section.press {
