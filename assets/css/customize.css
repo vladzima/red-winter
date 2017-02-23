@@ -57,7 +57,7 @@ body {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  z-index: 1000;
+  /*z-index: 1000;*/
   display: inline-block;
   width: 100%;
   padding-bottom: 75px;
