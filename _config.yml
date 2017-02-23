@@ -32,6 +32,9 @@ image_on_mobile: unnamed.png
 # Download tagline
 download_tagline: GET BATTLECRUISER NOW
 
+# Feature pictures animation (side or bottom)
+animate:  side
+
 # Trailer (Youtube video ID, symbols after 'watch?v=' in video URL)
 trailer_id: fWQExBovxXI
 

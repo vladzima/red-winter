@@ -627,3 +627,10 @@ html.w-mod-js *[data-ix="fade-in-on-scroll"] {
     url(../images/{{ site.fallback_image }});
 }
 {% endunless %}
+
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}

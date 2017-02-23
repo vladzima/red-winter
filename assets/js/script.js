@@ -4336,5 +4336,7 @@
  */
 Webflow.require('ix').init([
   {"slug":"fade-in-on-load","name":"Fade in on load","value":{"style":{"opacity":0,"x":"0px","y":"24px","z":"0px"},"triggers":[{"type":"load","stepsA":[{"title":"Move up on load","opacity":1,"transition":"transform 900ms ease-out-quart 0ms, opacity 900ms ease 0ms","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
-  {"slug":"fade-in-on-scroll","name":"Fade in on scroll","value":{"style":{"opacity":0,"x":"0px","y":"24px","z":"0px"},"triggers":[{"type":"scroll","offsetBot":"30%","stepsA":[{"opacity":1,"transition":"transform 900ms ease-out-quart 0ms, opacity 900ms ease 0ms","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}}
+  {"slug":"fade-in-on-scroll","name":"Fade in on scroll","value":{"style":{"opacity":0,"x":"0px","y":"24px","z":"0px"},"triggers":[{"type":"scroll","offsetBot":"30%","stepsA":[{"opacity":1,"transition":"transform 900ms ease-out-quart 0ms, opacity 900ms ease 0ms","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"move-right-on-scroll","name":"Move right on scroll","value":{"style":{"opacity":0,"x":"-200px","y":"0px","z":"0px"},"triggers":[{"type":"scroll","offsetBot":"30%","stepsA":[{"opacity":1,"transition":"transform 900ms ease-out-quart 0ms, opacity 900ms ease 0ms","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
+  {"slug":"move-left-on-scroll","name":"Move left on scroll","value":{"style":{"opacity":0,"x":"200px","y":"0px","z":"0px"},"triggers":[{"type":"scroll","offsetBot":"30%","stepsA":[{"opacity":1,"transition":"transform 900ms ease-out-quart 0ms, opacity 900ms ease 0ms","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}}
 ]);
