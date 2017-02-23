@@ -28,7 +28,7 @@ fallback_image: unnamed.png
 webm: "https://daks2k3a4ib2z.cloudfront.net/58a7661dd963a3a01f62ab96/58a7789f30bebf3d0b9d4347_Conan Exiles- First Gameplay Trailer-transcode.webm"
 mp4:  "https://daks2k3a4ib2z.cloudfront.net/58a7661dd963a3a01f62ab96/58a7789f30bebf3d0b9d4347_Conan Exiles- First Gameplay Trailer-transcode.mp4"
 image_on_mobile: unnamed.png
-bottom_pattern: 188fb5df964569ba6ded66310dfe54a7_water-waves-border-clipart-wave-border-clipart_600-310.png
+bottom_pattern: pattern.png
 
 # Download tagline
 download_tagline: GET BATTLECRUISER NOW
