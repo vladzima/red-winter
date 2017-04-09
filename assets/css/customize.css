@@ -44,7 +44,7 @@ body {
 .game-logo {
   display: block;
   width: 40%;
-  max-width: 300px;
+  max-width: 100px;
   margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
