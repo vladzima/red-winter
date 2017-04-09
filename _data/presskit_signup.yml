@@ -2,10 +2,10 @@
 
 - title: "Press Kit"
   background: 347760158.jpg
-  link: http://mail.ru
+  link: "http://mail.ru"
   id: presskit
 
 - title: "Sign Up"
   background: 3wegiYp.png
-  link: http://arb.digital
+  link: "http://arb.digital"
   id: signup
