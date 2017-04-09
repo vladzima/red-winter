@@ -19,7 +19,7 @@
     $('#google_link_bottom').click(function () {
     window.location = '{{ site.data.stores[2].link }}';
     });
-    $('#presskit').click(function () {
+    $('#press-kit').click(function () {
     window.location = '{{ site.data.presskit_signup[0].link }}';
     });
     $('#signup').click(function () {
