@@ -4,14 +4,14 @@
 - title: steam
   available:  true
   logo: header_logo.png
-  link: "http://google.com"
+  link: "http://rambler.ru"
   id: steam_link
   id_bottom: steam_link_bottom
       
 - title: appstore
   available:  true
   logo: app-store2x.png
-  link: "http://google.com"
+  link: "http://kremlin.ru"
   id: appstore_link
   id_bottom: appstore_link_bottom
       
