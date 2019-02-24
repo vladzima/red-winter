@@ -1,14 +1,14 @@
-##Customization options available:
+## Customization options available:
 
-###_config.yml
+### config.yml
 All global site settings and single parameters (company logo, price, copyright etc.)
 
 *NB: Jekyll does not automatically build site after _config.yml changes, so please rebuild site manually!*
 
-###assets/customize.css
+### assets/customize.css
 All visual tweaks like text and background colors.
 
-###_data/
+### _data/
 All site content collections are in YML files named accordingly (features, menu, reviews etc.).
 
 *NB: Please do not change items order where noted so.*
